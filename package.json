@@ -1,0 +1,33 @@
+{
+  "name": "node-ejemplo",
+  "version": "1.0.0",
+  "description": "Este es un ejemplo con Node",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isc-joserodriguez/M1S9-Intro-a-Node.git"
+  },
+  "keywords": [
+    "node.js",
+    "JavaScript",
+    "Ejemplo"
+  ],
+  "author": "Jose <correo@mail> (usuario)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isc-joserodriguez/M1S9-Intro-a-Node/issues"
+  },
+  "homepage": "https://github.com/isc-joserodriguez/M1S9-Intro-a-Node#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "random-prime": "^2.0.0"
+  },
+  "devDependencies": {
+    "randomstring": "^1.2.1"
+  }
+}
